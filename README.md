@@ -1,2 +1,67 @@
-# To-do-List
-To-do List Project 
+📝 To-Do List Web Application
+A sleek, feature-rich To-Do List built with HTML, CSS, and JavaScript. This app helps you efficiently manage your daily tasks with due dates, categories, priority flags, and drag-and-drop reordering. Tasks are stored using localStorage, so your list is saved even after closing the browser.
+
+🚀 Features
+✅ Add Tasks with title, category, and due date
+
+✏️ Edit Tasks in-place and update all fields
+
+⭐ Mark Tasks as Priority to highlight important items
+
+📅 Due Date and Category tracking per task
+
+🧹 Filter Tasks (All / Completed / Pending / Priority)
+
+🗑️ Delete Tasks with a click
+
+💾 LocalStorage Integration – No backend needed
+
+📱 Responsive Design for mobile and desktop
+
+🛠️ How to Run
+✅ Prerequisites
+A modern browser (Chrome, Firefox, Edge, Safari)
+
+📂 Steps
+Download or Clone this Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/todo-list-app.git
+Navigate to the Project Folder
+
+bash
+Copy
+Edit
+cd todo-list-app
+Open index.html in Your Browser
+
+You can double-click the file
+
+Or use Live Server in VSCode for real-time updates
+
+📁 Project Structure
+cpp
+Copy
+Edit
+todo-list-app/
+├── index.html       // Main HTML structure
+├── style.css        // All custom styles
+└── script.js        // Application logic
+🧩 Additional Notes
+All tasks are stored in the browser’s localStorage — no login or signup required.
+
+Tasks marked as priority show a filled star icon ⭐.
+
+Click the edit icon to modify task text, category, and due date. A Save button appears for confirmation.
+
+Use the dropdown filter to toggle between views like Completed, Pending, or Priority tasks.
+
+Drag & drop tasks to reorder them. The new order is saved automatically.
+
+📸 Screenshots (optional)
+You can add screenshots here if you're submitting this as part of a project or portfolio.
+
+👨‍💻 Author
+Made with ❤️ by [Your Name]
