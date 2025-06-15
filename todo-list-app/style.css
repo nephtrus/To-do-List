@@ -1,0 +1,144 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #1e1e2f;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  background: #2c2f4a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0e0ff;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"] {
+  margin-left: 10px;
+  margin-top:10px;
+  flex: 1 1 auto;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  background: #3c3f5a;
+  color: #fff;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  border: none;
+  background-color: #5a62ea;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4049c9;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3c3f5a;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: grab;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+li:hover {
+  background: #4a4d6f;
+  transform: scale(1.01);
+}
+
+li.completed .task-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-text {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.actions i {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+.actions i:hover {
+  color: #fff;
+}
+
+.priority {
+  color: gold;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.editing-input {
+  flex: 1;
+  background: #5c5f7a;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.category-date {
+  font-size: 12px;
+  color: #ccc;
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
