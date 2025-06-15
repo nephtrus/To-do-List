@@ -35,8 +35,11 @@ A modern browser (Chrome, Firefox, Edge, Safari)
 
 📁 Project Structure
 todo-list-app
+
 -- index.html       // Main HTML structure
+
 -- style.css        // All custom styles
+
 -- script.js        // Application logic
 
 🧩 Additional Notes
