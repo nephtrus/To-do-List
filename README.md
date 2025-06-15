@@ -34,10 +34,10 @@ A modern browser (Chrome, Firefox, Edge, Safari)
    Or use Live Server in VSCode for real-time updates
 
 📁 Project Structure
-todo-list-app/
-├── index.html       // Main HTML structure
-├── style.css        // All custom styles
-└── script.js        // Application logic
+todo-list-app
+-- index.html       // Main HTML structure
+-- style.css        // All custom styles
+-- script.js        // Application logic
 
 🧩 Additional Notes
 All tasks are stored in the browser’s localStorage — no login or signup required.
