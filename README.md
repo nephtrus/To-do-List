@@ -24,7 +24,7 @@ A modern browser (Chrome, Firefox, Edge, Safari)
 
 📂 Steps
 1. Download or Clone this Repository
-   git clone https://github.com/rummygit/To-do-List.git
+   git clone https://github.com/nephtrus/To-do-List.git
 
 2. Navigate to the Project Folder
    cd todo-list-app
