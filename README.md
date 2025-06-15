@@ -23,32 +23,22 @@ A sleek, feature-rich To-Do List built with HTML, CSS, and JavaScript. This app 
 A modern browser (Chrome, Firefox, Edge, Safari)
 
 📂 Steps
-Download or Clone this Repository
+1. Download or Clone this Repository
+   git clone https://github.com/rummygit/To-do-List.git
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/todo-list-app.git
-Navigate to the Project Folder
-
-bash
-Copy
-Edit
-cd todo-list-app
-Open index.html in Your Browser
-
-You can double-click the file
-
-Or use Live Server in VSCode for real-time updates
+2. Navigate to the Project Folder
+   cd todo-list-app
+   
+4. Open index.html in Your Browser
+   You can double-click the file
+   Or use Live Server in VSCode for real-time updates
 
 📁 Project Structure
-cpp
-Copy
-Edit
 todo-list-app/
 ├── index.html       // Main HTML structure
 ├── style.css        // All custom styles
 └── script.js        // Application logic
+
 🧩 Additional Notes
 All tasks are stored in the browser’s localStorage — no login or signup required.
 
@@ -58,10 +48,8 @@ Click the edit icon to modify task text, category, and due date. A Save button a
 
 Use the dropdown filter to toggle between views like Completed, Pending, or Priority tasks.
 
-Drag & drop tasks to reorder them. The new order is saved automatically.
-
 📸 Screenshots (optional)
 You can add screenshots here if you're submitting this as part of a project or portfolio.
 
 👨‍💻 Author
-Made with ❤️ by [Your Name]
+Made with ❤️ by {Nephtrus}
