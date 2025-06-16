@@ -18,7 +18,10 @@ A sleek, feature-rich To-Do List built with HTML, CSS, and JavaScript. This app 
 
 📱 Responsive Design for mobile and desktop
 
+![Screenshot 2025-06-16 163852](https://github.com/user-attachments/assets/1fa67c92-2c32-4a90-bc0c-17ad7e7d8fbb)
+
 🛠️ How to Run
+
 ✅ Prerequisites
 A modern browser (Chrome, Firefox, Edge, Safari)
 
